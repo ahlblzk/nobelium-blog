@@ -11,16 +11,16 @@ const BLOG = {
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2021, // If leave this empty, current year will be used.
+  since: 2020, // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: false,
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  socialLink: 'https://twitter.com/ahlblzk',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['Blog', '博客', '程序员','互联网'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
