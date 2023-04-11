@@ -1,9 +1,9 @@
 const BLOG = {
-  title: '鹌鹑的博客',
+  title: '程序员鹌鹑',
   author: '鹌鹑',
   email: 'ahlblzk@gmail.com',
-  link: 'https://nobelium.vercel.app',
-  description: 'This gonna be an awesome website.',
+  link: 'https://blog.quail.website',
+  description: '一个关于程序员技术分享和资源的博客，提供最新的编程教程、技术文章和开发工具。',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -17,10 +17,10 @@ const BLOG = {
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: 'https://og-image-craigary.vercel.app/**%E9%B9%8C%E9%B9%91**%20World.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-light-bg.svg', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/ahlblzk',
   seo: {
-    keywords: ['Blog', '博客', '程序员','互联网'],
+    keywords: ['程序员','博客','互联网','技术文章','编程教程']
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
