@@ -20,7 +20,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app/**quail**%20World.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-light-bg.svg', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/ahlblzk',
   seo: {
-    keywords: ['程序员','博客','互联网','技术文章','编程教程'],
+    keywords: ['程序员','个人博客','互联网','技术文章','编程教程'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
