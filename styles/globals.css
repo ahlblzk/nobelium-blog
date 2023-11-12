@@ -149,7 +149,8 @@ nav {
     @apply opacity-100;
   }
   .sticky-nav-full .post-title ~ span .site-title {
-    @apply opacity-0;margin-top:20px;display:inline-block;
+    @apply opacity-0;
+    margin-top:20px;display:inline-block;
   }
 }
 
