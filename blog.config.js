@@ -3,7 +3,7 @@ const BLOG = {
   author: '鹌鹑',
   email: 'ahlblzk@gmail.com',
   link: 'https://blog.quail.website',
-  description: '一个关于程序员技术分享和资源的博客，提供最新的编程教程、技术文章和开发工具。',
+  description: '一个乐观的悲观主义者',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
