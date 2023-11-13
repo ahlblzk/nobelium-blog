@@ -132,6 +132,9 @@ nav {
   .post-title {
     @apply transition duration-500;
   }
+  .site-title{
+    margin-top:20px;display:inline-block;
+  }
   .site-description {
     opacity: 0;
     transition: opacity 0.5s cubic-bezier(0.4, 0, 0, 1);
@@ -150,7 +153,6 @@ nav {
   }
   .sticky-nav-full .post-title ~ span .site-title {
     @apply opacity-0;
-    margin-top:20px;display:inline-block;
   }
 }
 
